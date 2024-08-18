@@ -1,9 +1,65 @@
-projeto_churn
-==============================
+   ## CLICK NA IMAGEM ABAIXO PARA AMPLIAR E CONFERIR AS ETAPAS DO PROJETO, MUITO INTERESSANTE!
+   
+![DEMANDA HOR2](https://github.com/user-attachments/assets/d19c852f-056c-4f07-9e44-d2907274031b)
 
-Analise, Modelagem e Apredizado de maquina para tratar churn empresa de Telecomunicações
 
-Project Organization
+
+## Análise de Classificação de Churn de clientes da empresa Telco Comunicações.
+
+A rotatividade de clientes no setor de telecomunicações, ou perda de clientes para concorrentes, é um problema crítico. 
+Prever isso com antecedência permite implementar estratégias de retenção, e uma redução de 1% na rotatividade pode aumentar significativamente os lucros.
+
+## Objetivo Pessoal
+Esse projeto me proporciona experiência prática em ciência de dados, incluindo a manipulação de grandes volumes de dados, aplicação de técnicas de aprendizado de máquina, e implementação de estratégias de retenção de clientes, preparando-me para atuar em diversos setores e segmentos de negócios.
+
+## O Problema
+
+O problema a ser solucionado é identificar clientes propensos a sair e tomar ações preventivas antes que eles partam. 
+	
+Quando um cliente cancela o serviço a empresa não perdi somente o lucro que ele ofereci, mais deixa o cliente ir levando consigo a insatisfação e assim propagando para outros possiveis futuros clientes
+
+
+## Demanda da Análise
+
+A análise de churn envolverá:
+ * Analisar as correlações entre os cliente", "um produto ou serviço" e "a probabilidade de abandono";
+
+ * Realizar análise de dados e engenharia de recursos;
+
+ * Desenvolver um modelo de aprendizado de máquina para prever quais clientes deixarão a empresa.
+
+
+### O Conjunto de Dados
+
+O conjunto de dados Telco Customer Churn da Kaggle foi utilizado, contendo 21 colunas e 7.043 linhas com informações como customerID, sexo, serviço telefônico e de Internet. Analiso essas colunas para identificar variáveis independentes (X) e dependentes.
+
+* ##### Dicionário dos Dados
+	
+| Atributo       | Significado                                                                               |
+| -------------- | ----------------------------------------------------------------------------------------- |
+|customerID      | valor único que identifica o cliente														 |	
+|genero          |se o cliente é homem ou mulher                                                             |
+|SeniorCitizen   |se o cliente é idoso ou não (1, 0)                                                         |
+|Parceiro        |se o cliente tem parceiro ou não (Sim, Não) 												 |
+|Dependentes     |se o cliente possui dependentes ou não (Sim, Não)                                          |
+|fidelidade      |número de meses que o cliente permaneceu na empresa                                        |
+|PhoneService    |se o cliente possui serviço telefônico ou não (Sim, Não)                                   |
+|MultipleLines   |se o cliente possui múltiplas linhas ou não (Sim, Não, Não serviço telefônico)             |
+|InternetService |provedor de serviços de internet do cliente (DSL, Fibra óptica, Não)                       |
+|OnlineSecurity  |se o cliente possui segurança online ou não (Sim, Não, Sem serviço de internet)            |
+|OnlineBackup    |se o cliente possui backup online ou não (Sim, Não, Sem serviço de internet)               | 
+|DeviceProtection|se o cliente possui proteção de dispositivo ou não (Sim, Não, Sem serviço de internet)     |
+|TechSupport     |se o cliente tem suporte técnico ou não (Sim, Não, Sem serviço de internet)                |
+|StreamingTV     |se o cliente possui streaming de TV ou não (Sim, Não, Não serviço de internet)             |
+|StreamingMovies |se o cliente possui streaming de filmes ou não (Sim, Não, Sem serviço de internet)         |
+|Contrato        |tipo de contrato de acordo com a duração (Mês a mês, Um ano, Dois anos)                    |
+|PaperlessBilling|faturas emitidas em formato sem papel (Sim, Não)                                           |
+|PaymentMethod   |forma de pagamento utilizada pelo cliente                                                  |
+|MonthlyCharges  |valor cobrado pelo serviço mensalmente                                                     |  
+|TotalCharges    |cobranças cumulativas de serviço durante o período de assinatura (manutenção)              |
+
+
+## Abaixo, a estrutura padrão das pastas de todo o projeto
 ------------
 
     ├── LICENSE
