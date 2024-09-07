@@ -33,31 +33,7 @@ A análise de churn envolverá:
 
 O conjunto de dados Telco Customer Churn da Kaggle foi utilizado, contendo 21 colunas e 7.043 linhas com informações como customerID, sexo, serviço telefônico e de Internet. Analiso essas colunas para identificar variáveis independentes (X) e dependentes.
 
-* ##### Dicionário dos Dados
-	
-| Atributo       | Significado                                                                               |
-| -------------- | ----------------------------------------------------------------------------------------- |
-|customerID      | valor único que identifica o cliente														 |	
-|genero          |se o cliente é homem ou mulher                                                             |
-|SeniorCitizen   |se o cliente é idoso ou não (1, 0)                                                         |
-|Parceiro        |se o cliente tem parceiro ou não (Sim, Não) 												 |
-|Dependentes     |se o cliente possui dependentes ou não (Sim, Não)                                          |
-|fidelidade      |número de meses que o cliente permaneceu na empresa                                        |
-|PhoneService    |se o cliente possui serviço telefônico ou não (Sim, Não)                                   |
-|MultipleLines   |se o cliente possui múltiplas linhas ou não (Sim, Não, Não serviço telefônico)             |
-|InternetService |provedor de serviços de internet do cliente (DSL, Fibra óptica, Não)                       |
-|OnlineSecurity  |se o cliente possui segurança online ou não (Sim, Não, Sem serviço de internet)            |
-|OnlineBackup    |se o cliente possui backup online ou não (Sim, Não, Sem serviço de internet)               | 
-|DeviceProtection|se o cliente possui proteção de dispositivo ou não (Sim, Não, Sem serviço de internet)     |
-|TechSupport     |se o cliente tem suporte técnico ou não (Sim, Não, Sem serviço de internet)                |
-|StreamingTV     |se o cliente possui streaming de TV ou não (Sim, Não, Não serviço de internet)             |
-|StreamingMovies |se o cliente possui streaming de filmes ou não (Sim, Não, Sem serviço de internet)         |
-|Contrato        |tipo de contrato de acordo com a duração (Mês a mês, Um ano, Dois anos)                    |
-|PaperlessBilling|faturas emitidas em formato sem papel (Sim, Não)                                           |
-|PaymentMethod   |forma de pagamento utilizada pelo cliente                                                  |
-|MonthlyCharges  |valor cobrado pelo serviço mensalmente                                                     |  
-|TotalCharges    |cobranças cumulativas de serviço durante o período de assinatura (manutenção)              |
-
+![CHURN](https://github.com/user-attachments/assets/1a483c50-5a98-4548-8d05-8285716bb708)
 
 ## Abaixo, a estrutura padrão das pastas de todo o projeto
 ------------
